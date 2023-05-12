@@ -1,0 +1,174 @@
+body {
+  background: #ededed;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: 'Merriweather', serif;
+}
+
+p,
+li {
+  font-family: 'Montserrat', sans-serif;
+}
+
+header {
+  background: #cc0000;
+}
+
+nav {
+  max-width: 1200px;
+  margin: 0 auto;
+  overflow: auto;
+  padding: 20px;
+}
+
+.logo img {
+  width: 100px;
+}
+
+.logo {
+  float: left;
+}
+
+#navigation {
+  float: right;
+  margin-top: 20px;
+}
+
+#navigation a {
+  font-family: 'Merriweather', serif;
+  /* font-family: 'Montserrat', sans-serif; */
+  /* font-family: 'Sacramento', cursive; */
+  color: #000;
+  text-decoration: none;
+  padding: 20px;
+  font-size: 24px;
+}
+
+#navigation a:hover {
+  color: #ededed;
+
+}
+
+.wrap {
+  width: 800px;
+  padding: 20px;
+  margin: 0 auto;
+}
+
+ #section-one {
+   text-align: center;
+ }
+
+#section-one img {
+  width: 800px;
+  padding: 30px 0;
+}
+
+#section-one nav a {
+  font-family: 'Merriweather', serif;
+  text-decoration: none;
+  color: #cc0000;
+  padding: 19px;
+  font-size: 24px;
+}
+
+#section-one h1{
+  font-size: 50px;
+}
+
+#section-one nav a:hover {
+  color: #000;
+}
+
+
+/*  SECTION TWO */
+
+#section-two {
+  background: url('../images/ComputerBackground.jpg') no-repeat;
+  padding: 50px;
+}
+
+#section-two .wrap {
+  background: rgba(0,0,0,0.6);
+  border-radius: 1%;
+  color: #ededed;
+  padding: 20 40;
+  width: 720px;
+}
+
+#section-two .wrap a {
+  color: #ededed;
+}
+
+
+
+/* SECTION THREE */
+#section-three {
+  padding: 30px;
+}
+
+#section-three .wrap {
+  overflow: auto;
+}
+
+#section-three .wrap #image {
+  width: 48%;
+  float: left;
+  padding-right: 4%;
+}
+
+#section-three .wrap #image img {
+  width: 100%;
+}
+
+#section-three .wrap #text {
+  width: 48%;
+  float: left;
+}
+
+#section-three h2 {
+  margin-top: 0;
+}
+
+/* The About Page */
+#about-section-two {
+	background: url('../images/GoldFoil.jpg') no-repeat;
+	padding: 30px;
+}  /* added this in because of Julia's template, Don't like it. It's does like better with the background, just don't like the gold. */
+
+#about-section-two .wrap {
+	overflow: auto;
+}
+
+#about-section-two .wrap #img {
+  width: 48%;
+	float: left;
+  padding-right: 4%;
+}
+
+#about-section-two .wrap #img img {
+	width: 100%;
+}
+
+#about-section-two .wrap #text {
+  width: 48%;
+	float: left;
+}
+
+
+footer {
+  background: #cc0000;
+  text-align: center;
+  padding: 20px;
+  color: #ededed
+}
+
+.logo.footer {
+  float: none;
+}
